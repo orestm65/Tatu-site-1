@@ -1,40 +1,13 @@
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Artists from "@/components/sections/Artists";
-import Gallery from "@/components/sections/Gallery";
-import Styles from "@/components/sections/Styles";
-import Services from "@/components/sections/Services";
-import Pricing from "@/components/sections/Pricing";
-import Booking from "@/components/sections/Booking";
-import Contacts from "@/components/sections/Contacts";
-import Testimonials from "@/components/sections/Testimonials";
-import FAQ from "@/components/sections/FAQ";
-import Process from "@/components/sections/Process";
-import Equipment from "@/components/sections/Equipment";
-import Blog from "@/components/sections/Blog";
-import CTA from "@/components/sections/CTA";
-import Featured from "@/components/sections/Featured";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <>
-      <Hero />
-      <About />
-      <Artists />
-      <Featured />
-      <Gallery />
-      <Styles />
-      <Services />
-      <Pricing />
-      <Process />
-      <Equipment />
-      <Testimonials />
-      <Blog />
-      <FAQ />
-      <CTA />
-      <Booking />
-      <Contacts />
-    </>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
+        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
+      </div>
+    </div>
   );
 };
 
